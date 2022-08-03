@@ -5,8 +5,8 @@
   <img src="https://static.fecam.net.br/thumbs/248/1103927_resample_fixo_500_500.png" alt="logo" width="60px" align="center" />
   </h1>
 
-<p align="center"><a target="_blank" href="https://licitacoes-guabiruba.vercel.app/">Visite o Site da aplicação</a></p>
-<p align="center"><a target="_blank" href="https://github.com/VitorIMuller/api-licitacoesGuabiruba" >Repositorio Back-End</a></p>
+<p align="center"><a  href="https://licitacoes-guabiruba.vercel.app/" target="_blank" >Visite o Site da aplicação</a></p>
+<p align="center"><a  href="https://github.com/VitorIMuller/api-licitacoesGuabiruba" target="_blank" >Repositorio Back-End</a></p>
 
 ## Sobre
 
