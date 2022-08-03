@@ -2,7 +2,7 @@
 <h1 align="center">
     Licitações do Municipio de Guabiruba
     <br/>
-  <img src="../licitacoesguabiruba/src/Assets/brasaoGuabiruba.jpg" alt="logo" width="60px" align="center" />
+  <img src="https://static.fecam.net.br/thumbs/248/1103927_resample_fixo_500_500.png" alt="logo" width="60px" align="center" />
   </h1>
 
 <p align="center"><a href="https://licitacoes-guabiruba.vercel.app/">Visite o Site da aplicação</a></p>
