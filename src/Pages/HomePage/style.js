@@ -46,7 +46,7 @@ const List = styled.div`
 
 const Item = styled.div`
   width: 100%;
-  height: 80px;
+  height: 100px;
 
   border-bottom: 2px solid white;
 
@@ -99,6 +99,13 @@ const NamePage = styled.div`
   color: white;
   font-weight: 700;
 `;
+
+const CenterLoader = styled.div`
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+`;
 export {
   Url,
   Content,
@@ -108,5 +115,6 @@ export {
   Header,
   Home,
   Menu,
-  NamePage
+  NamePage,
+  CenterLoader
 }
