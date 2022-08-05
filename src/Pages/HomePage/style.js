@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 const Home = styled.div`
-  background-color: #005bc5;
+  background-color: #8ab3cf;
   width: 100%;
   height: 100vh;
 
@@ -14,7 +14,7 @@ const Home = styled.div`
 `;
 
 const Header = styled.div`
-  background-color: #00b4fc;
+  background-color: #4180ab;
   width: 100%;
   height: auto;
   display: flex;
@@ -73,6 +73,7 @@ const Title = styled.div`
 `;
 const Content = styled.div`
   margin-right: 20px;
+  margin-left: 10px;
   width: 80%;
   display: flex;
   align-items: center;
@@ -84,6 +85,7 @@ const Url = styled.a`
   display: flex;
   align-items: center;
   justify-content: center;
+  text-align: center;
 `;
 
 const Menu = styled.div`

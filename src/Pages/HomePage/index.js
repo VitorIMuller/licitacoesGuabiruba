@@ -50,7 +50,7 @@ export default function HomePage() {
               Titulo
             </Title>
             <Url>
-              Data De Abertura
+              Data <br /> De Abertura
             </Url>
             <Url>
               Link
@@ -76,7 +76,7 @@ export default function HomePage() {
                     {moment(`${bid.pubDate.substring(10, 0)}`).format('L')}
                   </Url>
                   <Url href={bid.link} target="_blank">
-                    Link
+                    Acesse a Página
                   </Url>
                   <Content>
                     <p>{typeof (bid.content) !== 'string' ?
