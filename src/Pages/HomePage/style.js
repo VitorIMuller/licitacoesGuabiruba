@@ -108,6 +108,7 @@ const CenterLoader = styled.div`
   align-items: center;
   justify-content: center;
 `;
+
 export {
   Url,
   Content,
