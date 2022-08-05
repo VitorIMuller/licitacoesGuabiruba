@@ -60,6 +60,8 @@ const Item = styled.div`
   color: white;
   font-weight: 500;
 
+  ${(props) => (props.active ? 'background-color:#FFEED2;' : '')};
+
 `;
 const Title = styled.div`
   margin-left: 20px;

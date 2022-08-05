@@ -14,7 +14,10 @@ import {
 } from "./style.js";
 import * as api from "../../Services/api";
 import Loader from "../../Assets/loading";
+import moment from "moment";
+import 'moment/locale/pt-br'
 
+moment.locale('pt-br');
 export default function HomePage() {
   const [bids, setBids] = useState([]);
   const [isLoading, setIsLoading] = useState(true);
@@ -27,10 +30,12 @@ export default function HomePage() {
     setIsLoading(false);
   }
 
+
   useEffect(() => {
     fetchBids()
-  }, [])
-  console.log(bids)
+  }, []);
+
+
   return (
     <>
       <Header>
@@ -45,10 +50,13 @@ export default function HomePage() {
               Titulo
             </Title>
             <Url>
+              Data De Abertura
+            </Url>
+            <Url>
               Link
             </Url>
             <Content>
-              Conteudo
+              Conteúdo
             </Content>
           </Item>
         </Menu>
@@ -64,6 +72,9 @@ export default function HomePage() {
                   <Title>
                     <p>{bid.title}</p>
                   </Title>
+                  <Url>
+                    {moment(`${bid.pubDate.substring(10, 0)}`).format('L')}
+                  </Url>
                   <Url href={bid.link} target="_blank">
                     Link
                   </Url>
